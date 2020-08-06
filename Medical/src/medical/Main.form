@@ -1,0 +1,470 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+    <Property name="title" type="java.lang.String" value="Medical"/>
+    <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+      <Dimension value="[1090, 900]"/>
+    </Property>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <Events>
+    <EventHandler event="windowOpened" listener="java.awt.event.WindowListener" parameters="java.awt.event.WindowEvent" handler="formWindowOpened"/>
+  </Events>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="DoctorsLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="AppointmentsListScroller" min="-2" pref="287" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="AppointmentDateTime" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="AppointmentReason" max="32767" attributes="0"/>
+                                  <Group type="102" attributes="0">
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="AppoinmentDateTimeLabel" min="-2" max="-2" attributes="0"/>
+                                          <Component id="AppointmentReasonLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="AddUpdateAppointment" alignment="0" min="-2" pref="233" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="DoctorsListScroller" min="-2" pref="287" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="1" attributes="0">
+                                      <Component id="AddUpdateDoctor" max="32767" attributes="0"/>
+                                      <EmptySpace min="-2" pref="6" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" attributes="0">
+                                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                          <Component id="DocPhoneLabel" min="-2" max="-2" attributes="0"/>
+                                          <Component id="DoctorPhone" pref="233" max="32767" attributes="0"/>
+                                          <Component id="DoctorSpecialization" alignment="0" max="32767" attributes="0"/>
+                                          <Component id="DocSpecLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Component id="DocNameLabel" min="-2" max="-2" attributes="0"/>
+                                          <Component id="DoctorName" alignment="0" max="32767" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="AppointmentsLabel" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="450" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="ExaminationsLabel" min="-2" max="-2" attributes="0"/>
+                          <Component id="PatientsLabel" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                          <Component id="ExaminationsListScroller" pref="281" max="32767" attributes="0"/>
+                          <Component id="PatientsListScroller" max="32767" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="AddUpdatePatient" alignment="0" max="32767" attributes="0"/>
+                          <Component id="ExaminationDateTime" alignment="0" max="32767" attributes="0"/>
+                          <Component id="PatientName" alignment="0" max="32767" attributes="0"/>
+                          <Component id="PatientAMKA" alignment="0" max="32767" attributes="0"/>
+                          <Component id="PatientAge" alignment="0" max="32767" attributes="0"/>
+                          <Component id="PatientPhone" alignment="0" max="32767" attributes="0"/>
+                          <Component id="AddUpdateExamination" alignment="0" pref="229" max="32767" attributes="0"/>
+                          <Component id="DeletePatient" alignment="0" max="32767" attributes="0"/>
+                          <Component id="DescriptionScroller" alignment="0" pref="229" max="32767" attributes="0"/>
+                          <Component id="ExaminationTitle" alignment="0" max="32767" attributes="0"/>
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="ExaminationDateTimeLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="PatientPhoneLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="PatientAgeLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="PatientAMKALabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="PatientNameLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="ExaminationDescriptionLabel" min="-2" max="-2" attributes="0"/>
+                                  <Component id="ExaminationTitleLabel" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="DoctorsLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="PatientsLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Component id="PatientNameLabel" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="PatientName" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="PatientAMKALabel" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="PatientAMKA" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="PatientAgeLabel" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="PatientAge" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="PatientPhoneLabel" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="PatientPhone" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="AddUpdatePatient" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="DeletePatient" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="DocNameLabel" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="DoctorName" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="DocSpecLabel" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="DoctorSpecialization" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="DocPhoneLabel" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="DoctorPhone" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="AddUpdateDoctor" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Component id="PatientsListScroller" alignment="0" pref="416" max="32767" attributes="0"/>
+                  <Component id="DoctorsListScroller" alignment="0" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace pref="16" max="32767" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="AppointmentsLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="ExaminationsLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="ExaminationsListScroller" max="32767" attributes="0"/>
+                  <Component id="AppointmentsListScroller" max="32767" attributes="0"/>
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="AppoinmentDateTimeLabel" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="AppointmentDateTime" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="AppointmentReasonLabel" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="AppointmentReason" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="AddUpdateAppointment" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="ExaminationDateTimeLabel" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="ExaminationDateTime" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="ExaminationTitleLabel" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="ExaminationTitle" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="ExaminationDescriptionLabel" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="DescriptionScroller" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="AddUpdateExamination" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="0" pref="143" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="DoctorsLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Doctors:"/>
+      </Properties>
+    </Component>
+    <Container class="javax.swing.JScrollPane" name="DoctorsListScroller">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JList" name="DoctorsList">
+          <Properties>
+            <Property name="model" type="javax.swing.ListModel" editor="org.netbeans.modules.form.editors2.ListModelEditor">
+              <StringArray count="0"/>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="DoctorsListMouseClicked"/>
+          </Events>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+          </AuxValues>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JLabel" name="DocNameLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Name:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="DocSpecLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Specialization:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="DocPhoneLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Phone:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="DoctorName">
+    </Component>
+    <Component class="javax.swing.JTextField" name="DoctorSpecialization">
+    </Component>
+    <Component class="javax.swing.JTextField" name="DoctorPhone">
+    </Component>
+    <Component class="javax.swing.JButton" name="AddUpdateDoctor">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="ADD/UPDATE DOCTOR"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="AddUpdateDoctorActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="DeletePatient">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="DELETE PATIENT"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="DeletePatientActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="PatientsLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Patients:"/>
+      </Properties>
+    </Component>
+    <Container class="javax.swing.JScrollPane" name="PatientsListScroller">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JList" name="PatientsList">
+          <Properties>
+            <Property name="model" type="javax.swing.ListModel" editor="org.netbeans.modules.form.editors2.ListModelEditor">
+              <StringArray count="0"/>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="PatientsListMouseClicked"/>
+          </Events>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+          </AuxValues>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JLabel" name="PatientNameLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Name:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="PatientName">
+    </Component>
+    <Component class="javax.swing.JLabel" name="PatientAMKALabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="AMKA:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="PatientAMKA">
+    </Component>
+    <Component class="javax.swing.JLabel" name="PatientAgeLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Age:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="PatientAge">
+    </Component>
+    <Component class="javax.swing.JLabel" name="PatientPhoneLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Phone:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="PatientPhone">
+    </Component>
+    <Component class="javax.swing.JButton" name="AddUpdatePatient">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="ADD/UPDATE PATIENT"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="AddUpdatePatientActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="AppointmentsLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Appointments:"/>
+      </Properties>
+    </Component>
+    <Container class="javax.swing.JScrollPane" name="AppointmentsListScroller">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JList" name="AppointmentsList">
+          <Properties>
+            <Property name="model" type="javax.swing.ListModel" editor="org.netbeans.modules.form.editors2.ListModelEditor">
+              <StringArray count="0"/>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="AppointmentsListMouseClicked"/>
+          </Events>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+          </AuxValues>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JLabel" name="AppoinmentDateTimeLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Date &amp; Time:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="AppointmentDateTime">
+    </Component>
+    <Component class="javax.swing.JLabel" name="AppointmentReasonLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Reason:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="AppointmentReason">
+    </Component>
+    <Component class="javax.swing.JLabel" name="ExaminationsLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Examinations:"/>
+      </Properties>
+    </Component>
+    <Container class="javax.swing.JScrollPane" name="ExaminationsListScroller">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JList" name="ExaminationsList">
+          <Properties>
+            <Property name="model" type="javax.swing.ListModel" editor="org.netbeans.modules.form.editors2.ListModelEditor">
+              <StringArray count="0"/>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="ExaminationsListMouseClicked"/>
+          </Events>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+          </AuxValues>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JLabel" name="ExaminationDateTimeLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Date &amp; Time:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="ExaminationDateTime">
+    </Component>
+    <Component class="javax.swing.JLabel" name="ExaminationTitleLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Title:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="ExaminationTitle">
+    </Component>
+    <Component class="javax.swing.JLabel" name="ExaminationDescriptionLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Description:"/>
+      </Properties>
+    </Component>
+    <Container class="javax.swing.JScrollPane" name="DescriptionScroller">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTextArea" name="ExaminationDescription">
+          <Properties>
+            <Property name="columns" type="int" value="20"/>
+            <Property name="rows" type="int" value="5"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JButton" name="AddUpdateExamination">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="ADD/UPDATE EXAMINATION"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="AddUpdateExaminationActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="AddUpdateAppointment">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="ADD/UPDATE APPOINTMENT"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="AddUpdateAppointmentActionPerformed"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>
